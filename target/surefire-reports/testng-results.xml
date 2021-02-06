@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="58473" started-at="2021-02-06T01:08:25Z" finished-at="2021-02-06T01:09:23Z">
+    <groups>
+      <group name="regression">
+        <method signature="TNG_002.amazon()[pri:0, instance:com.project.December2020MavenBuild.TNG_002@6293abcc]" name="amazon" class="com.project.December2020MavenBuild.TNG_002"/>
+      </group> <!-- regression -->
+      <group name="sanity">
+        <method signature="TNG_002.amazon()[pri:0, instance:com.project.December2020MavenBuild.TNG_002@6293abcc]" name="amazon" class="com.project.December2020MavenBuild.TNG_002"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test name="Test" duration-ms="58473" started-at="2021-02-06T01:08:25Z" finished-at="2021-02-06T01:09:23Z">
+      <class name="com.project.December2020MavenBuild.TNG_002">
+        <test-method status="PASS" signature="startProcess(java.lang.String)[pri:0, instance:com.project.December2020MavenBuild.TNG_002@6293abcc]" name="startProcess" is-config="true" duration-ms="12359" started-at="2021-02-06T01:08:25Z" finished-at="2021-02-06T01:08:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startProcess -->
+        <test-method status="PASS" signature="amazon()[pri:0, instance:com.project.December2020MavenBuild.TNG_002@6293abcc]" name="amazon" duration-ms="34366" started-at="2021-02-06T01:08:37Z" finished-at="2021-02-06T01:09:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amazon -->
+        <test-method status="PASS" signature="endProcess()[pri:0, instance:com.project.December2020MavenBuild.TNG_002@6293abcc]" name="endProcess" is-config="true" duration-ms="11676" started-at="2021-02-06T01:09:12Z" finished-at="2021-02-06T01:09:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endProcess -->
+      </class> <!-- com.project.December2020MavenBuild.TNG_002 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
